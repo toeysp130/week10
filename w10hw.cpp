@@ -7,7 +7,7 @@ int main() {
     string menu;
     float balance = 10000, amount;
     cout << "Exit with 0 " << endl;
-    cout << "Your balance = " << fixed << setprecision(2) << balance << endl;
+    cout << "Your balance = " << "10,000.00" << endl;
     do {
         cout << "Input command( 1 or withdraw,2 deposit ) : ";
         cin >> menu;
